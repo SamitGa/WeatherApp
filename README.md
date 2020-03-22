@@ -1,4 +1,3 @@
-# WhetherApp
 Cyber Range Weather App
 ========================
 
