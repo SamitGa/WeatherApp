@@ -27,3 +27,9 @@ it('Invalid Zip Code and Invalid Scale Test', function(done) {
         done();
     });
 });
+it('Invalid Zip Code and Invalid Scale Test', function(done) {
+    request('http://localhost:8080/locations/24060?scale=Fahrenheitopia' , function(error, response, body) {
+        expect(response.statusCode).to.equal(200);
+        done();
+    });
+});
