@@ -25,7 +25,7 @@ app.listen(port, function () {
  */
 app.get('/locations/:zipcode', (req, res) => {
 	const zip_code = req.params.zipcode;
-	let query_scale = req.query.scale.toUpperCase() === 'Celsius'.toUpperCase() ? 'Celsius' : 'Fahrenheit
+	let query_scale = req.query.scale.toUpperCase() === 'Celsius'.toUpperCase() ? 'Celsius' : 'Fahrenheit'
 	let scale = query_scale === 'Fahrenheit' ? 'imperial' : 'metric'; 
 	let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 	let weather_req = new XMLHttpRequest();
