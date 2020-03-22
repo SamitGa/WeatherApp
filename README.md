@@ -34,7 +34,6 @@ In this case the URL like this : **_http://localhost:8080/locations/24060?scale=
 
 ![alt text](https://github.com/SamitGa/WhetherApp/blob/master/Images/wrong_scale.PNG "Application returning temperature in fahrenheit when the scale is mentioned wrong")
 
-
 An incorrect zip code is mentioned
 ----------------------------------
 
